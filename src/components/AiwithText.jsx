@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 const AiwithText = () => {
-    const genAI = new GoogleGenerativeAI('AIzaSyDRyi_HawgYwbh4T_P5mhSHV8e2mFK2Olc');
+    const genAI = new GoogleGenerativeAI('YOUR API KEY');
 
     const [search, setSearch] = useState('');
     const [aiResponse, setResponse] = useState('');
