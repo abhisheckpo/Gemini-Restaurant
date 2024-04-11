@@ -3,7 +3,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 import { getBase64 } from '../helpers/imageHelper';
 
 const AiwithImage = () => {
-    const genAI = new GoogleGenerativeAI('AIzaSyDRyi_HawgYwbh4T_P5mhSHV8e2mFK2Olc');
+    const genAI = new GoogleGenerativeAI('YOUR_API_KEY');
 
     const [image, setImage] = useState('');
     const [imageInineData, setImageInlineData] = useState('');
